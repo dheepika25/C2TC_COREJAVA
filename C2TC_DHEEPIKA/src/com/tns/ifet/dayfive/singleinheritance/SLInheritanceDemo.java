@@ -1,4 +1,5 @@
-package com.tns.ifet.singleinheritance;
+package com.tns.ifet.dayfive.singleinheritance;
+
 
 public class SLInheritanceDemo {
 
