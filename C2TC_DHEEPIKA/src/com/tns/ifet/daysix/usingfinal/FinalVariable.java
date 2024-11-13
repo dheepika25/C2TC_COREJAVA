@@ -1,6 +1,6 @@
 package com.tns.ifet.daysix.usingfinal;
-
 public class FinalVariable {
+
 	// final int x; // final instance variable must be initialized
 
 	final int x = 100;
@@ -13,8 +13,8 @@ public class FinalVariable {
 
 	// instatnce method
 	void change() {
-		x = 30; 
-		Y = 200; 
+		//x = 30; // final variables can't be reassigned
+		//Y = 200; // final static variables can't be reassigned
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class FinalVariable {
 	// Declare a static block to initialize the final static variable.
 	static {
 		Y = 20;
-		Z = 100; 
+		//Z = 100; // Once intialized can't be reassigned
 		System.out.println("Value of Y: " + Y);
 	}
 
